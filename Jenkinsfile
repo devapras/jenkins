@@ -15,12 +15,19 @@ pipeline {
                """
           }
       }
-	  stage('Testing Code') {
+     stage('Testing Code') {
           steps {
                sh """
                echo "Testing Code"
                """
           }
       }
+     stage('Delivey Code') {
+          steps {
+               sh """
+               echo "Delivey Code"
+               """
+          }
+      }   
    }
 }
