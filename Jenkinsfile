@@ -21,13 +21,6 @@ pipeline {
                echo "Testing Code"
                """
           }
-      }
-     stage('Delivey Code') {
-          steps {
-               sh """
-               echo "Delivey Code"
-               """
-          }
       }   
    }
 }
