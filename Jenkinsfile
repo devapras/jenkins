@@ -15,5 +15,12 @@ pipeline {
                """
           }
       }
+	  stage('Deploy Code') {
+          steps {
+               sh """
+               echo "Testing Code"
+               """
+          }
+      }
    }
 }
